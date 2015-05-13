@@ -1,0 +1,13 @@
+<ion-view view-title="Activities">
+  <ion-content class="padding">
+    <h2>What we got</h2>
+    <ion-list>
+    <ion-item class="list list-inset item item-text-wrap" ng-repeat="activity in activities">
+    	{{activity.name}}
+    	{{activity.sport}}
+    	{{activity.time}}
+    	{{activity.place}}
+    </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
